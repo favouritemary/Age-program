@@ -15,7 +15,7 @@ b_year = int(input("Please enter the year of your birth, e.g. 1900-2023 :  "))
 b_month = int(input("Enter the month of your birth, e.g. 1-12 :  "))
 b_day= int(input("Enter the day of your birth, e.g. 1-31 : "))
 
-# Date constructor to calculate date in sec from EPOCH time #
+### Date constructor to calculate date in sec from EPOCH time
 
 t= datetime.datetime(b_year, b_month , b_day)
 age_sec = time.mktime(t.timetuple())
