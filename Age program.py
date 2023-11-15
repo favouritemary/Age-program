@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 """
@@ -47,4 +47,10 @@ event_sec=round((a%sec_hour)%sec_min)
 event_sec
 
 print  ( "Your birthday is ",b_day, t.strftime("%B"), b_year,        "(" "{0} years, {1} days, {2} hours, {3} minutes and {4} seconds ago"")"        .format(year_to_the_event,days_event,hour_event,min_event,event_sec))
+
+
+# In[ ]:
+
+
+
 
